@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        <!-- <p style="text-align:center;">This text is centered.</p> -->
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
+        img {
+            width: 15%; /* Change this to adjust the width of the image */
+            height: auto; /* This will scale the height proportionally */
+        }
+    </style>
+<head>
+    <img src="https://th.bing.com/th/id/R.aeb59e40c8b3754d07f1c862066ccff2?rik=EUMOsi4D6zJWVQ&riu=http%3a%2f%2fthevoiceofcanada.online%2fwp-content%2fuploads%2f2021%2f01%2fDept-of-justice-logo-update-1024x353.png&ehk=5SLRjGsMXbb8H5%2b4%2bmOeRyZUQi52nywHHEsa%2b7m1ehg%3d&risl=&pid=ImgRaw&r=0" alt="Department of Justice LOGO">
+    <h1><p style="text-align:center;">GOVERNMENT OF INDIA</p></h1>
+    <h2><p style="text-align:center;">MINISTRY OF LAW & JUSTICE</p></h2>
+    <title>Login Page</title>
+    
+</head>
+<body>
+    <div id="content" align="center">
+        <form id="loginForm">
+            <h1>LOGIN</h1>
+            <input type="text" id="username" placeholder="Username"><br><br>
+            <input type="password" id="password" placeholder="Password"><br><br>
+            <!-- <input type="submit" value="Login"> -->
+            <a href="file:///C:/Users/shant/.vscode/WEBDEV/HTML/homepg.html#">LOGIN</a>
+
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("loginForm").onsubmit = function(event) {
+            event.preventDefault();
+
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if(username == "admin" && password == "password") {
+                alert("Login successful");
+                // You can redirect to another page here
+                // window.location.href = "home.html";
+            } else {
+                alert("Login failed");
+            }
+        }
+    </script>
+</body>
+</html>

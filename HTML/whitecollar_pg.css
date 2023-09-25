@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.white-collar-case-bg-container {
+    background-image: url('https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/07/30/853821-law-1-istock.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.white-collar-case-heading {
+    font-family: Roboto;
+    font-size: 40px;
+    color: #e49b0f;
+    font-weight: bold;
+    text-decoration: overline;
+    text-decoration-color: black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.white-collar-case-para {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #100e00;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+#case-point-style {
+    font-family: italic;
+    font-size: 18px;
+    color: #002928;
+    padding: 5px;
+}

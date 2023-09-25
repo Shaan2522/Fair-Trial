@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-style {
+    background-color: #ffbf00;
+}
+
+#navbarTitle {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #72227a;
+}
+
+#navItem1 {
+    color: #161210;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+#navItem2 {
+    color: #161210;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+#navItem3 {
+    color: #161210;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+#navItem4 {
+    color: #161210;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.home-page-section {
+    background-image: url('https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/07/30/853821-law-1-istock.jpg');
+    height: 100%;
+    background-size: cover;
+
+}
+
+.home-page-logo {
+    height: 15%;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.home-page-main-heading {
+    font-family: Roboto;
+    font-size: 55px;
+    color: #312736;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.home-page-sub-heading {
+    font-family: Roboto;
+    font-size: 45px;
+    color: #312736;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.home-page-main-sub-heading {
+    font-family: Roboto;
+    font-size: 34px;
+    color: #312736;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.home-page-sub-para {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #605060;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.home-copyright {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 10px;
+    color: #0a0002;
+    padding: 12px;
+
+}
+
+.about-us-main-heading {
+    font-family: Roboto;
+    font-size: 45px;
+    color: #0d0d0d;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #7e6e49;
+    padding: 10px;
+}
+
+p {
+    font-family: italic;
+    font-size: 24px;
+    color: #285f5f;
+    padding: 10px;
+}
+
+.about-us-copyright {
+    font-family: Roboto;
+    font-size: 10px;
+    color: #9f1730;
+    padding: 10px;
+}
+
+.about-us-page-bg-container {
+    background-image: url('https://th.bing.com/th/id/R.40925dc1d2d8c6610a9770d9b06a3cee?rik=KYmDj5fGasDJ5g&amp;riu=http%3a%2f%2fdlicanada.ca%2fwp-content%2fuploads%2f2018%2f06%2flaw-powerpoint-templates-lawyer-background-powerpoint-backgrounds-of-legal-powerpoint-template.jpg&amp;ehk=kNrdT%2bP6mKlqQmStkRFzZr8mi37w%2bFxhJnc4JRzG7TM%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0');
+    height: 100%;
+    background-size: cover;
+}
